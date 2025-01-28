@@ -11,13 +11,18 @@ preprocessed_data.npz
 /results/*
 /saved_models/*
 
-# Allow the folders to exist (remove the '/*' for directories to be tracked)
+# Allow the folders to exist and track them (remove the '/*' for directories to be tracked)
 !/data
 !/data/defective
 !/data/good
 !/data/test
 !/results
 !/saved_models
+
+# Explicitly allow .gitkeep files in the ignored folders
+!/data/*/.gitkeep
+!/results/.gitkeep
+!/saved_models/.gitkeep
 
 # Ignore files inside these folders (e.g., images, model files, etc.)
 data/*/*
