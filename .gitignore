@@ -20,7 +20,7 @@ preprocessed_data.npz
 !/saved_models
 
 # Explicitly allow .gitkeep files in the ignored folders
-!/data/*/.gitkeep
+!/data/.gitkeep
 !/results/.gitkeep
 !/saved_models/.gitkeep
 
