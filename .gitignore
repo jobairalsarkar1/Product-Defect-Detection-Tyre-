@@ -1,0 +1,38 @@
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore preprocessed data
+preprocessed_data.npz
+
+# Ignore the contents of the following directories but keep the directories
+/data/*
+/results/*
+/saved_models/*
+
+# Allow the folders to exist (remove the '/*' for directories to be tracked)
+!/data
+!/data/defective
+!/data/good
+!/data/test
+!/results
+!/saved_models
+
+# Ignore files inside these folders (e.g., images, model files, etc.)
+data/*/*
+saved_models/*/*
+results/*/*
+
+# Ignore virtual environments and environment-related files
+tyre_env/
+venv/
+env/
+
+# Ignore Jupyter checkpoints, system files, and logs
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
+*.bak
+*.swp
